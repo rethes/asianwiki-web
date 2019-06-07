@@ -22,3 +22,8 @@ cypress/videos
 .idea/
 
 yarn-error.log
+
+#cypress
+cypress/screenshots
+cypress/videos
+cypress/integration
