@@ -15,10 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "build": "react-scripts build",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "browserslist": {
     "production": [
@@ -31,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^3.3.1"
   }
 }
