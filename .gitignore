@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/dist
+package-lock.json
+
+# testing
+/coverage
+src/**/**/__snapshots__/*.test.tsx.snap
+cypress/screenshots
+cypress/videos
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.nyc_output
+
+#editors
+.vscode
+.idea/
+
+yarn-error.log
