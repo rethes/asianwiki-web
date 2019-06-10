@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "lint:scss": "stylelint"
   },
   "browserslist": {
     "production": [
@@ -39,6 +40,10 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
     "identity-obj-proxy": "^3.0.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-sass-guidelines": "^6.0.0",
+    "stylelint-no-px": "^0.12.1",
+    "stylelint-scss": "^3.8.0",
     "ts-jest": "^24.0.2"
   }
 }
