@@ -1,26 +1,20 @@
-import * as React from 'react';
-import logo from '../assests/images/logo.svg';
-import './App.css';
+// react libraries
+import React from 'react';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload
-        </p>
+// interfaces
+import {LinkProps} from './interfaces';
+
+const Link: React.FC<LinkProps> = ({ className, href, children }) => {
+    return (
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+            href={href}
+            className={className}
         >
-          Learn React
+            {children}
+            <h1 className="h1-tag"> Typescript rendering </h1>
         </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+    );
+};
+
+export default Link;

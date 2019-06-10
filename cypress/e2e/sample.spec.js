@@ -4,8 +4,7 @@ describe('Test User Role', () => {
   });
 
   it('Navigate to hello page', () => {
-    cy.get('header[class="App-header"]')
-      .get('p')
-      .should('contain', 'Edit src/App.tsx and save to reload');
+    cy.get('.h1-tag')
+      .should('contain', 'Typescript rendering');
   });
 });
