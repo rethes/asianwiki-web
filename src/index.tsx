@@ -1,7 +1,7 @@
 // react libraries
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import App from "./App/App";
+import App from "./App";
 import "./assests/styles/index.scss";
 import * as serviceWorker from "./tools/serviceWorker";
 

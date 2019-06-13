@@ -1,10 +1,12 @@
-describe('Test User Role', () => {
+describe('Sample text', () => {
   before(() => {
     cy.visit('http://localhost:3001/');
   });
 
-  it('Navigate to hello page', () => {
-    cy.get('.h1-tag')
-      .should('contain', 'Typescript rendering');
+  it('Navigate the navbar', () => {
+    cy.get('.logo').should('be.visible');
+    cy.get('.search-input')
+      .should('be.visible')
+      .should('have.attr', 'placeholder', 'Search')
   });
 });

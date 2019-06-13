@@ -6,12 +6,21 @@
   "dependencies": {
     "@types/jest": "^24.0.13",
     "@types/node": "12.0.7",
-    "@types/react": "16.8.19",
-    "@types/react-dom": "16.8.4",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.0.9",
+    "@types/react-router-dom": "^4.3.3",
+    "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-thunk": "^2.3.0",
     "typescript": "3.5.1"
   },
   "scripts": {
@@ -20,7 +29,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test": "react-scripts test --watchAll=false",
-    "lint:scss": "stylelint",
+    "lint:scss": "stylelint '**/*.scss'",
     "lint:ts": "tslint --project tsconfig.json --config tslint.json",
     "precommit": "lint-staged"
   },
@@ -61,12 +70,11 @@
     "*.{ts,tsx}": [
       "prettier --write",
       "git add"
-    ],
-    "*.scss": "stylelint --syntax=scss"
+    ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn test",
+      "pre-commit": "lint-staged && yarn lint:scss && yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
