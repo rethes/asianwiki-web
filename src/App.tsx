@@ -4,13 +4,15 @@ import React from "react";
 // components
 import { NavBar } from "./components/NavBar";
 import { Carousel } from "./components/Carousel";
+import { MoviesCalender } from "./components/MoviesCalender";
 
 const App = () => {
   return (
-    <React.Fragment>
+    <>
       <NavBar />
       <Carousel />
-    </React.Fragment>
+      <MoviesCalender />
+    </>
   );
 };
 
