@@ -12,7 +12,7 @@ const Routes = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={App} />
-      <Route exact path="/moviesname" component={SingleMoviePage} />
+      <Route exact path="/:movieName/:movieId" component={SingleMoviePage} />
     </Switch>
   </Router>
 );

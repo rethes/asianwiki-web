@@ -3,6 +3,7 @@ import * as React from "react";
 
 // third-party libraries
 import * as ReactTooltip from "react-tooltip";
+import { Link } from "react-router-dom";
 
 // styles
 import "./MoviesCalender.scss";
@@ -61,22 +62,28 @@ export class MoviesCalender extends React.Component {
    * @returns {JSX}
    */
   renderMovieCalenderBody = moviesFixtures => {
-    const movies = moviesFixtures.map(moviesFixture => (
-      <div className="movie-card">
-        <div className="movie-card__image">
-          <img
-            src={moviesFixture.image}
-            className="image"
-            alt={moviesFixture.title}
-          />
-        </div>
-        <p className="movie-card__title">{moviesFixture.title}</p>
+    return moviesFixtures.map(moviesFixture => (
+      <div className="movie-card" key={moviesFixture.id}>
+        <Link
+          className="movie-card__container"
+          to={`/${moviesFixture.title.toLowerCase().replace(" ", "-")}/${
+            moviesFixture.id
+          }`}
+        >
+          <div className="movie-card__image">
+            <img
+              src={moviesFixture.image}
+              className="image"
+              alt={moviesFixture.title}
+            />
+          </div>
+          <p className="movie-card__title">{moviesFixture.title}</p>
+        </Link>
         <span className="movie-card__date">
           {moviesFixture.releaseDate.day}
         </span>
       </div>
     ));
-    return movies;
   };
 
   render() {

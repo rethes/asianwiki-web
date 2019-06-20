@@ -35,7 +35,8 @@ export interface Movie {
   writers?: string[];
   stars?: string[];
   taglines?: string;
-  otherTitles?: string[];
+  notes?: string[];
+  trailers: object[];
 }
 
 export interface Date {
