@@ -1,145 +1,96 @@
 @import '~sass-rem';
 @import '../../assests/styles/variables';
 
-.carousel {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  width: 46rem;
-  height: 18.1875rem;
-  margin-top: 1rem;
-  margin-left: 30rem;
-  cursor: pointer;
-}
+.carousel-container {
+  height: 23rem;
+  padding: 0 17rem;
 
-.slide1,
-.slide2,
-.slide3,
-.slide4,
-.slide5 {
-  position: absolute;
-  background: no-repeat center;
-}
+  .carousel {
+    cursor: pointer;
+  }
 
-.slide1 {
-  background-size: cover;
-  width: rem(767px);
-  height: rem(300px);
-  -webkit-animation: fade 8s infinite;
-  animation: fade 8s infinite;
+  .carousel-image {
+    width: 70rem;
+    height: 22rem;
+    padding-top: 1.5rem;
+  }
 
-  .image1,
-  .logo {
+  .slide1,
+  .slide2,
+  .slide3 {
     position: absolute;
-    width: 100%;
+    background: no-repeat center;
+    background-size: cover;
   }
 
-  .logo {
-    bottom: 0;
-    left: 0;
-    margin-bottom: rem(300px);
-    padding: rem(10px);
-    color: map_get($grey, 1700);
-  }
-}
-
-.slide2 {
-  background: no-repeat center;
-  background-size: cover;
-  width: rem(767px);
-  height: rem(300px);
-  -webkit-animation: fade2 8s infinite;
-  animation: fade2 8s infinite;
-
-  .image2,
-  .logo {
-    position: absolute;
-    width: 100%;
+  .slide1 {
+    -webkit-animation: fade 8s infinite;
+    animation: fade 8s infinite;
   }
 
-  .logo {
-    bottom: 0;
-    left: 0;
-    margin-bottom: rem(300px);
-    padding: rem(10px);
-    color: map_get($grey, 1700);
-  }
-}
-
-.slide3 {
-  background: no-repeat center;
-  background-size: cover;
-  width: rem(767px);
-  height: rem(300px);
-  -webkit-animation: fade3 8s infinite;
-  animation: fade3 8s infinite;
-
-  .image3,
-  .logo {
-    position: absolute;
-    width: 100%;
+  .slide2 {
+    -webkit-animation: fade2 8s infinite;
+    animation: fade2 8s infinite;
   }
 
-  .logo {
-    bottom: 0;
-    left: 0;
-    margin-bottom: rem(300px);
-    padding: rem(10px);
-    color: map_get($grey, 1700);
-  }
-}
+  .slide3 {
+    -webkit-animation: fade3 8s infinite;
+    animation: fade3 8s infinite;
 
-@keyframes fade {
-  0% {
-    opacity: 1;
   }
 
-  33.333% {
-    opacity: 0;
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+
+    33.333% {
+      opacity: 0;
+    }
+
+    66.666% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+
   }
 
-  66.666% {
-    opacity: 0;
+  @keyframes fade2 {
+    0% {
+      opacity: 0;
+    }
+
+    33.333% {
+      opacity: 1;
+    }
+
+    66.666% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
   }
 
-  100% {
-    opacity: 1;
-  }
+  @keyframes fade3 {
+    0% {
+      opacity: 0;
+    }
 
-}
+    33.333% {
+      opacity: 0;
+    }
 
-@keyframes fade2 {
-  0% {
-    opacity: 0;
-  }
+    66.666% {
+      opacity: 1;
+    }
 
-  33.333% {
-    opacity: 1;
-  }
-
-  66.666% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade3 {
-  0% {
-    opacity: 0;
-  }
-
-  33.333% {
-    opacity: 0;
-  }
-
-  66.666% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
+    100% {
+      opacity: 0;
+    }
   }
 }
