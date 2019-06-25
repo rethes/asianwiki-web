@@ -17,10 +17,12 @@
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-tooltip": "^3.10.0",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-immutable-state-invariant": "^2.1.0",
     "redux-thunk": "^2.3.0",
+    "sass-rem": "^2.0.1",
     "typescript": "3.5.1"
   },
   "scripts": {
@@ -29,7 +31,7 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test": "react-scripts test --watchAll=false",
-    "lint:scss": "stylelint '**/*.scss'",
+    "lint:scss": "stylelint '**/*.scss' --fix",
     "lint:ts": "tslint --project tsconfig.json --config tslint.json",
     "precommit": "lint-staged"
   },
