@@ -1,5 +1,6 @@
-# asianwiki-web
+# Asianwiki-web
 This web application serves as a convenient window for movie lovers to learn more about their favorite dramas and movies.
+Checkout [Asianwiki-web](https://asianwiki.herokuapp.com) here.
 
 # Table of Contents
 

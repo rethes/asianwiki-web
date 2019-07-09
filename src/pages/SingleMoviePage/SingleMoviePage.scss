@@ -1,0 +1,99 @@
+@import '~sass-rem';
+@import '../../assests/styles/variables';
+
+.single-movie {
+  height: 100%;
+  padding-top: 0.9375rem;
+  padding-right: 17rem;
+  padding-left: 17rem;
+
+  .single-movie-page-title {
+    color: #7F2AFF;
+  }
+
+  .single-movie-page {
+    background-color: #FFF;
+    height: auto;
+    padding: 1.25rem 1.25rem 3.125rem;
+    border: 0.0625rem solid #E0E0E0;
+    border-radius: 0.25rem;
+  }
+
+  .header {
+    display: flex;
+    padding: 0.9375rem 0.9375rem 0.9375rem 0;
+
+    &__panel-heading {
+      display: block;
+      font-family: 'alternate-gothic-no-1-d', 'Futura Condensed', 'Arial Narrow', Arial, sans-serif;
+      font-size: rem(28px);
+      text-transform: uppercase;
+    }
+
+    &__panel-heading::before {
+      background-color: #2A2A33;
+      margin-right: 0.625rem;
+      padding-right: 1.125rem;
+      content: '';
+    }
+  }
+}
+
+.main-column {
+  margin-right: 15rem;
+}
+
+.movie-info {
+  margin-bottom: 1.5625rem;
+  padding: rem(10px) 0 rem(10px) 0;
+}
+
+.movie-cast {
+  margin-bottom: 1.5625rem;
+  padding: rem(10px) 0 rem(10px) 0;
+}
+
+.movie-notes {
+  margin-bottom: 1.5625rem;
+  padding: rem(10px) 0 rem(10px) 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+
+  &__media {
+    padding-right: 11rem;
+    padding-left: 11rem;
+  }
+}
+
+.notes {
+  width: 48%;
+  margin-top: rem(15px);
+}
+
+.notes-bubble {
+  margin-top: rem(15px);
+  padding: rem(12px);
+  border-left: rem(6px) solid #7F2AFF;
+}
+
+.notes-bubble-media {
+  margin-top: 0;
+}
+
+.pull-left {
+  padding-right: rem(10px);
+  float: left !important;
+}
+
+.asianwiki-icon {
+  width: rem(24px);
+  height: rem(24px);
+}
+
+.note-body2 {
+  margin: 0 0 rem(10px);
+}

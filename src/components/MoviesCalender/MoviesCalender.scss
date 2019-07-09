@@ -73,6 +73,10 @@
       box-shadow: 0 0.925rem 1rem 0 rgba(0, 0, 0, 0.2);
       float: left;
 
+      &__container {
+        text-decoration: none;
+      }
+
       &__title {
         position: relative;
         display: block;

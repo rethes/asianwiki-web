@@ -4,9 +4,9 @@ export const moviesFixtures = [
     title: "Aladdin",
     image:
       "https://res.cloudinary.com/do8ik6qe5/image/upload/v1559319297/todo-app/2019-05-31T16:14:54.842Z.jpg",
-    country: "USA",
+    country: " USA ",
     releaseDate: {
-      day: "24 May",
+      day: "May 24",
       year: "2019"
     },
     director: "Guy Ritchie",
@@ -19,7 +19,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: [" Will Smith", "Mena Massoud", "Naomi Scott"],
     taglines: "On May 24 comes a rags to wishes story",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "2",
@@ -28,7 +51,7 @@ export const moviesFixtures = [
       "https://res.cloudinary.com/do8ik6qe5/image/upload/v1559319297/todo-app/2019-05-31T16:14:54.842Z.jpg",
     country: "USA",
     releaseDate: {
-      day: "29 May",
+      day: "May 09",
       year: "2019"
     },
     director: "Tim Burton",
@@ -41,7 +64,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "3",
@@ -58,13 +104,48 @@ export const moviesFixtures = [
     runtime: "1h 52 min",
     genre: ["Adventure", "Fantasy", "Family"],
     synopsis:
-      "A young elephant, whose oversized ears enable him to fly, helps save a struggling circus, but when the " +
-      "circus plans a new venture, Dumbo and his friends discover dark secrets beneath its shiny veneer. ",
+      "Woody (voice of Tom Hanks) has always been confident about\n" +
+      "his place in the world, and that his priority is taking\n" +
+      "care of his kid, whether that's Andy or Bonnie. So when\n" +
+      "Bonnie's beloved new craft-project-turned-toy, Forky\n" +
+      '(voice of Tony Hale), declares himself as "trash" and not\n' +
+      "a toy, Woody takes it upon himself to show Forky why he\n" +
+      "should embrace being a toy. But when Bonnie takes the\n" +
+      "whole gang on her family's road trip excursion, Woody ends\n" +
+      "up on an unexpected detour that includes a reunion with\n" +
+      "his long-lost friend Bo Peep (voice of Annie Potts). After\n" +
+      "years of being on her own, Bo's adventurous spirit and\n" +
+      "life on the road belie her delicate porcelain exterior. As\n" +
+      "Woody and Bo realize they're worlds apart when it comes to\n" +
+      "life as a toy, they soon come to find that's the...",
     language: ["English", "Tamil"],
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "4",
@@ -86,7 +167,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "5",
@@ -109,7 +213,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "6",
@@ -131,7 +258,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "7",
@@ -154,7 +304,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "8",
@@ -177,7 +350,30 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   },
   {
     id: "9",
@@ -200,6 +396,29 @@ export const moviesFixtures = [
     writers: ["John August", "Guy Ritchie"],
     stars: ["Danny DeVito ", "Mena Massoud", "Naomi Scott"],
     taglines: " In 2019, a beloved tale will take you to new heights",
-    otherTitles: []
+    notes: [
+      " 1. Takes over KBS2s Monday & Tuesday 22:00 time slot previously occupied by My Fellow Citizens and will be followed by I Wanna Hear Your Song July, 2019.",
+      "2. Koh Joon-Hee was first offered the lead female role but declined.",
+      "3. Eric was first offered the lead male role, but declined.",
+      "4. First still images of Go Won-Hee and Shin Sung-Rok appearing together in KBS2 drama series ",
+      "5. Main poster and group poster for KBS2 drama series"
+    ],
+    trailers: [
+      {
+        name: "Aladdin Trailer 1",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 2",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      },
+      {
+        name: "Aladdin Trailer 3",
+        videoUrl:
+          "https://resizing.flixster.com/aDmnr6UgJHK_XBaiwVAx27CTYhw=/691x1024/v1.dDs0NzU3MDY7ajsxODA5NTsxMjAwOzY5MTsxMDI0"
+      }
+    ]
   }
 ];

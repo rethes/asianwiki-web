@@ -1,0 +1,45 @@
+@import '~sass-rem';
+@import '../../assests/styles/variables';
+
+.news-section {
+  width: 14.0625rem;
+  margin: 0 auto;
+  border: 0.0625rem solid #E0E0E0;
+  float: right;
+
+  .header-panel {
+    display: flex;
+    padding: 0.9375rem 0.9375rem 0.9375rem 0;
+
+    &__heading {
+      display: block;
+      margin: 0 auto;
+      font-family: 'alternate-gothic-no-1-d', 'Futura Condensed', 'Arial Narrow', Arial, sans-serif;
+      font-size: rem(28px);
+      text-transform: uppercase;
+    }
+  }
+
+  .news-article {
+    padding: rem(10px);
+
+    &__image {
+      width: 100%;
+      height: rem(113px);
+    }
+
+    &__title {
+      margin: 0 auto;
+      line-height: 1.25rem;
+    }
+
+    &__date {
+      margin: 0 auto;
+      font-family: 'Franklin Gothic FS', 'Futura Condensed', 'Arial Narrow',Arial,sans-serif;
+      font-size: rem(14px);
+      font-weight: 600;
+      color: #787878;
+    }
+  }
+
+}
